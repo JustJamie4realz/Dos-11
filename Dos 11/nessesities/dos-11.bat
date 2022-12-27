@@ -119,18 +119,6 @@ set /p exprogram=which external program do you want to open:
 call ..\Programs\%exprogram%
 goto Doshome
 
-:dscreen
-cls
-title dos crashed
-echo %dosver% has crashed
-echo.
-echo error info below
-for /f "delims=" %%c in (nessesities/crashinfo.txt) do (set crashinfo=%%c)
-echo %crashinfo%
-pause
-call thank.vbs
-exit
-
 :Reboot
 start dos-11.bat
 
