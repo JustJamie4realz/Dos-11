@@ -1,0 +1,1 @@
+X=MsgBox("The password is blank. Please enter some text into the text box.",0+16,"Empty password")
