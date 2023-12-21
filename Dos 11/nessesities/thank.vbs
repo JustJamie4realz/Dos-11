@@ -1,1 +1,0 @@
-X=MsgBox("Thank you for using Dos. We hope to see you again!",0+64,"Thank you!")
